@@ -153,8 +153,8 @@ flex-flow: row wrap;
 }
 
 #ashley {
-  height: 300px;
-  width: 100%;
+  height: auto;
+  width: 80%;
 }
 
 
@@ -170,13 +170,14 @@ color: black;
 
 @media all and (max-width: 767px) {
 #ashley {
-  width: 60%;
-  height: 350px;
+  width: 100%;
+  height: auto;
   margin: 0px 20%;
 }
 
 #color1 {
-  background-color: #05077a;
+  background-color: #000000;
+  color: black;
 }
 
   .full {
@@ -246,13 +247,12 @@ nav {
   #brand {
     width: 80vw;
     float: left;
+   
   }
   #toggle1 {
-    margin: 0px;
-    padding: 0px;
     float: right;
     width: auto;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 
   }
 }
@@ -277,11 +277,12 @@ height: 100vh;
 }
 
 table {
-  margin: 25px 0px;
+  padding: 25px 0px;
 }
 
 #faq {
   background-color: white;
+  padding: 25px;
 }
 
 #contact{background-color: lightgrey;}
